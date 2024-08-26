@@ -1,0 +1,91 @@
+nav{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+}
+nav > ul {
+    display: flex;
+    padding: 0px;
+}
+ul > li {
+    list-style: none;
+    margin-right: 20px;
+    justify-content: space-between;
+    padding: 5px 0px 5px 0px;
+    text-decoration: none;
+    
+    
+}
+nav > ul > li > a > b {
+    font-size: 20px;
+    color: rgb(15, 8, 8);
+    margin-right: 10px;
+}
+
+ul a {
+    color: rgb(15, 8, 8);
+    text-decoration: none;
+    
+}
+ nav > .logo-div > img{
+    margin-left: 100px;
+}
+
+.btn {
+    color:white;
+    background-color: #D01C28;
+    text-decoration: none;
+    width: 75px;
+    height: 31px;
+    border: none;
+    padding: 0px;
+    margin-top: 10px;
+    font-size: medium; 
+    margin-right: 100px;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+div > h1{
+    font-size: 102px;
+    margin-bottom: 0px;
+
+}
+.container-div{
+    display: flex;
+    justify-content: center;
+}
+.container-div > .innerdiv{
+    margin-bottom: 0px;
+}
+.container-div > .div1 >img {
+    width: 530px;
+    height: 487px;
+    margin-top: 86px;
+}
+.text-div > .p-div{
+    line-height: 30px;
+}
+.btn-footer{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+.shopbtn {
+    background-color: #D01C28;
+    color: #ffff;
+    width: 150px;
+    height: 41px;
+    border: none;
+    font-size: medium;
+}
+.catbtn{
+    background-color: #ffff;
+    width: 150px;
+    height: 41px;
+    font-size: medium;
+}
